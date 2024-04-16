@@ -14,7 +14,7 @@ s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 s.setsockopt(socket.SOL_SOCKET, socket.SO_SNDBUF, 1000000)
 
 # Địa chỉ IP và cổng của server
-server_ip = "192.168.4.2"
+server_ip = "192.168.1.1"
 sever_port = 6666
 
 # Khởi tạo camera
